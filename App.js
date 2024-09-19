@@ -4,10 +4,10 @@ import FirstScreen1a from './components/FirstScreen1a';
 import ForgetPassword from './components/ForgetPassword';
 import CodeVerification from './components/CodeVerification';
 
-export default function App() {
+export default function App(){
   const [currentScreen, setCurrentScreen] = useState('FirstScreen');
 
-  const renderScreen = () => {
+  const renderScreen = () =>  {
     switch (currentScreen) {
       case 'FirstScreen':
         return <FirstScreen />;
